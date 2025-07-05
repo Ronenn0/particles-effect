@@ -1,0 +1,21 @@
+body {
+    background: rgba(0, 0, 0, 0.99);
+    /* rgba(73, 45, 1, 0.62) */
+}
+.Particle, .BackgroundParticle {
+    /* border-radius: 50%; */
+    border: 2px 2px;
+    border-color:rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.BackgroundParticle {
+    transform: translate(-50%, -50%);
+}
+
+@keyframes disappear {
+    to {
+        left: 50%;
+        top: 50%;
+    }
+}
